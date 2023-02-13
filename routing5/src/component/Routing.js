@@ -1,3 +1,7 @@
+// Header and Footer is common in every application.
+// import all files in Routing file.
+// Routing - All the application in one file.
+
 import React from 'react';
 import {BrowserRouter,Route} from 'react-router-dom';
 import Header from './Header';

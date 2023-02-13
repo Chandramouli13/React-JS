@@ -4,7 +4,7 @@ import './product.css';
 const ProdDisplay = (props) => {
     console.log(props)
 
-    const renderProduct = props.prodData.map((item) => {
+    const renderProduct = props.prodData.map((item) => {         // map is used to iterate over the array.
         return(
             <div className="card">
                 <img src={item.image} alt={item.name}/>

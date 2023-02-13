@@ -1,0 +1,54 @@
+
+#quickSearch{
+    /* height:600px; */
+    /* border:5px  solid green; */
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+
+#quickHeading{
+    font-size:30px;
+    display:block;
+    color:#3b2632;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-left:2%;
+}
+
+#quickHeading:hover{
+    font-size:40px;
+    color:black
+}
+
+#quickSubHeading{
+    font-size:20px;
+    color:gray;
+    display:block;
+    line-height: 2;
+    margin-left:2%;
+}
+
+/*  */
+.tileComponent1 {
+    overflow: hidden;
+}
+
+.tileComponent1 img{
+    height: 250px;
+    padding: 8px;
+    border-radius: 20px;
+    transition: all 1.3s ease;
+}
+
+.tileComponent1 img:hover {
+    transform: scale(1.2);
+}
+
+.tileComponent2 {
+    color: aliceblue;
+}
+
+.componentSubHeading {
+    color: rgb(124, 156, 156);
+}

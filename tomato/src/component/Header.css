@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Navbar  */
+
+.navbar img{
+    height: 52px;
+    width: 120px;
+    margin: -2px;
+    border-radius: 10px;
+}
+
+.btn {
+    margin: 8px;
+}
+
+.navbar-nav button, .btn {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.navbar {
+    background-color: black;
+    box-shadow: 0 10px 10px black;
+}

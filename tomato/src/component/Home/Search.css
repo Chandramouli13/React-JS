@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif;
+}
+
+.banner-image {
+    /* background-image: url('Images/bg-image.jpg'); */
+    background-size: cover;
+}
+
+.banner-image img{ 
+    height: 120px; 
+    margin-top: 200px;
+}
+
+.logo {
+    transition: 0s ease;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+
+.banner-image h1 {
+    color: orange;
+    font-size: 60px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.form-select {
+    margin-bottom: 160px;
+}

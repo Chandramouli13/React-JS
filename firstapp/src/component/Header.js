@@ -1,13 +1,15 @@
 import React,{Component} from 'react';
 import './Header.css';
 
+// In class we don't have return, 
+// but in class we have render() inside render we have return - where we right our header content.
 class Header extends Component {
-
-    constructor(){
+                                    
+    constructor(){                      // constructor get called inside the class and inside the constructor we have super().
         super()
 
-        this.state={
-            title:'React Main App',
+        this.state={                       // This is Data binding.
+            title:'React Main App',        // Easy to update the title or content of the header.
             keyword:'User Text Here'
         }
     }
